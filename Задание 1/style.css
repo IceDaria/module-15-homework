@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+        color: #995459;
+}
+
+.btn {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #B2DFF2;
+
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.btn_text {
+        margin-right: 5px;
+        color: #FBA692;
+        font-size: 20px;
+}
+
+.bi {
+        fill: #FBA692;
+}
+
+.btn_icon {
+        width: 20px;
+        height: 20px;
+}
+
+.js-btn .arrow-1 {
+        display: block;
+    }
+
+.js-btn .arrow-2 {
+        display: none;
+ }
+
+.js-btn.toggled .arrow-1 {
+        display: none;
+    }
+
+.js-btn.toggled .arrow-2 {
+        display: block;
+    }
